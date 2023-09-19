@@ -1,0 +1,30 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-table-block {
+	background-color: #21759b;
+	padding: 2px;
+	table-layout: fixed;
+
+	table {
+		width: 100%;
+		max-width: 100%;
+
+		tr>td {
+			padding: 0.5em;
+			border: 1px solid #000;
+			text-align: left;
+			vertical-align: middle;
+			color: #fff;
+
+			.block-editor-rich-text__editable {
+				overflow-wrap: anywhere;
+				word-break: normal;
+			}
+		}
+	}
+}

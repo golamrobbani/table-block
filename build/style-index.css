@@ -1,0 +1,31 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-table-block {
+  background-color: #21759b;
+  padding: 2px;
+  table-layout: fixed;
+}
+.wp-block-create-block-table-block table {
+  width: 100%;
+  max-width: 100%;
+}
+.wp-block-create-block-table-block table tr > td {
+  padding: 0.5em;
+  border: 1px solid #000;
+  text-align: left;
+  vertical-align: middle;
+  color: #fff;
+}
+.wp-block-create-block-table-block table tr > td .block-editor-rich-text__editable {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
